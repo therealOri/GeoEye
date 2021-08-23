@@ -30,7 +30,7 @@ It should look something like this. (Firefox)
 ![2021-08-23_16-41](https://user-images.githubusercontent.com/45724082/130528648-ec21f0c4-3d1c-495a-a289-d54ddb65a471.png)
 
 6. You will then need to right click that url highlighted in red. Hover over "Copy" then click on "Copy url".
-7. Open up our nice little script and paste the url and hit enter. It will spit out some numbers and information. What we are interested in is what is highlighted in the red box. The numbers on the right are the lattitude and longitude and the information on the left will be our location/town name/country. (sometimes a road name/number).
+7. Open up our nice little script and paste the url and hit enter. It will spit out some numbers and information. What we are interested in is what is highlighted in the red box. The numbers on the right are the lattitude and longitude and the information on the left will be our location, such as name of town and the road name. (sometimes number).
 ![2021-08-23_16-45](https://user-images.githubusercontent.com/45724082/130529012-0000eddc-255a-4fe7-b835-a4a6732fc6b3.png)
 
 8. From here we can just copy and paste the latitude and longitude numbers into google maps and then cross reference where we are with what we see on google maps for a perfect score.
