@@ -8,7 +8,7 @@
 ```
 git clone https://github.com/therealOri/GeoEye.git
 cd GeoEye
-pip3 install requests os
+pip3 install requests
 ```
 <br />
 
