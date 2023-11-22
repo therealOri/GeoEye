@@ -47,7 +47,7 @@ It should look something like this. (Firefox)
 With this, I would like anyone to help contribute to this repo, anything helps!
 
 - If there are things you want done or added then please feel free to leave a suggestion or just straight up push a request.
-- If the browser you use isn;t supported here, then please leave a suggestion/request and it may be added.
+- If the browser you use isn't supported here, then please leave a suggestion/request and it may be added.
 - I am making this repo to document how you can find your exact location on Geotastic as I currently could not find any other repos/code to help with this.
   
 I look forward to seeing what you all can come up with! <3
