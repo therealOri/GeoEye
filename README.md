@@ -13,7 +13,7 @@ source geoENV/bin/activate
 pip3 install requests
 ```
 > If you don't have `virtualenv` installed, you can install it via "`pip`". --> `pip install virtualenv`
-
+__ __
 
 <br />
 
@@ -38,7 +38,11 @@ It should look something like this. (Firefox)
 
 7. Open up our nice little script and paste the url and hit enter. It will spit out the latitude and longitude for the current location and then ask if you want to open the cords up in google maps.
 
-8. From here we can just copy and paste the latitude and longitude numbers into google maps or just have it open maps for us and then cross reference where we are with what we see on google maps for a perfect score.
+9. From here we can just copy and paste the latitude and longitude numbers into google maps or just have it open maps for us and then cross reference where we are with what we see on google maps for a perfect score.
+__ __
+> Credit to [dharmik2319](https://github.com/dharmik2319) for the regex filtering and the idea for opening up the location on google maps.
+
+
 <br />
 <br />
 <br />
