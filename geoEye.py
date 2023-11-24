@@ -2,8 +2,8 @@ import os
 import requests
 import re
 import beaupy
+import webbrowser
 from beaupy.spinners import *
-import shutil
 
 
 def clear():
@@ -38,13 +38,5 @@ if __name__ == '__main__':
 	else:
 		clear()
 		print(f"{coords[0]}, {coords[1]}")
-		browsers = ["firefox", "chrome", "brave", "safari", "msedge"]
-		default_browser = "xdg-open"
-		for browser in browsers:
-			if shutil.which(browser):
-				os.system(f"{browser} 'https://www.google.com/maps/place/{cords[0], cords[1]}'")
-				break
-		else:
-			os.system(f"{default_browser} 'https://www.google.com/maps/place/{cords[0], cords[1]}'")
-
+		webbrowser.open(f"https://www.google.com/maps/place/{coords[0], coords[1]}")
 
