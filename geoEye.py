@@ -29,15 +29,15 @@ def main():
 
 if __name__ == '__main__':
 	clear()
-	cords = main()
-	choice = beaupy.confirm("Do you want to open google maps with the cords?")
+	coords = main()
+	choice = beaupy.confirm(f"Do you want to open Google Maps with the Coordinates {coords[0]}, {coords[1]} in your browser?")
 
 	if not choice:
 		clear()
-		print(cords)
+		print(f"{coords[0]}, {coords[1]}")
 	else:
 		clear()
-		print(cords)
+		print(f"{coords[0]}, {coords[1]}")
 		browsers = ["firefox", "chrome", "brave", "safari", "msedge"]
 		default_browser = "xdg-open"
 		for browser in browsers:
