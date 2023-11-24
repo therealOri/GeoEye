@@ -2,8 +2,8 @@ import os
 import requests
 import re
 import beaupy
+import webbrowser
 from beaupy.spinners import *
-import shutil
 
 
 def clear():
@@ -29,22 +29,14 @@ def main():
 
 if __name__ == '__main__':
 	clear()
-	cords = main()
-	choice = beaupy.confirm("Do you want to open google maps with the cords?")
+	coords = main()
+	choice = beaupy.confirm(f"Do you want to open Google Maps with the Coordinates {coords[0]}, {coords[1]} in your browser?")
 
 	if not choice:
 		clear()
-		print(cords)
+		print(f"{coords[0]}, {coords[1]}")
 	else:
 		clear()
-		print(cords)
-		browsers = ["firefox", "chrome", "brave", "safari", "msedge"]
-		default_browser = "xdg-open"
-		for browser in browsers:
-			if shutil.which(browser):
-				os.system(f"{browser} 'https://www.google.com/maps/place/{cords[0], cords[1]}'")
-				break
-		else:
-			os.system(f"{default_browser} 'https://www.google.com/maps/place/{cords[0], cords[1]}'")
-
+		print(f"{coords[0]}, {coords[1]}")
+		webbrowser.open(f"https://www.google.com/maps/place/{coords[0], coords[1]}")
 

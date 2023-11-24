@@ -10,7 +10,7 @@ git clone https://github.com/therealOri/GeoEye.git
 cd GeoEye
 virtualenv geoENV
 source geoENV/bin/activate
-pip3 install requests
+pip3 install -r requirements.txt
 ```
 > If you don't have `virtualenv` installed, you can install it via "`pip`". --> `pip install virtualenv`
 __ __
